@@ -1,0 +1,136 @@
+/* 
+  This is a SAMPLE File to get you started. Follow the instructions on the project to complete the tasks. 
+  You'll probably need to override some of theese styles.
+*/
+
+:root {
+  --color-header: #0bbe60;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-body: #e7ecf0;
+  --color-border: #bcbfc1;
+  --font-family-base: Arial, sans-serif;
+  --font-family-title: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-base);
+}
+
+body {
+  background-color: var(--color-body);
+  color: var(--color-black);
+}
+
+#body-title {
+  text-align: center;
+}
+
+#filter {
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: var(--color-header);
+  color: var(--color-white);
+  height: 60px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .login-button {
+  text-align: right;
+}
+
+header .logo {
+  height: 40px;
+  padding-left: 10px;
+}
+
+nav a {
+  color: var(--color-white);
+  text-decoration: none;
+  text-align: right;
+  padding-right: 20px;
+}
+
+main {
+  padding: 2rem;
+}
+
+input {
+  height: 30px;
+}
+
+button {
+  height: 30px;
+  width: 60px;
+}
+
+#places-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 0;
+}
+
+.place-card {
+  background: var(--color-white);
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.place-img {
+  width: 100px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.details-button {
+  background-color: var(--color-header);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+}
+
+select {
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding-top: 20px;
+}

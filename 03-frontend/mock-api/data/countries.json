@@ -1,5 +1,9 @@
 [
     {
+        "code": "",
+        "name": "chose country"
+    },   
+    {
         "code": "US",
         "name": "United States"
     },
@@ -58,5 +62,9 @@
     {
         "code": "AU",
         "name": "Australia"
+    },
+    {
+        "code": "CA",
+        "name": "Canada"
     }
 ]

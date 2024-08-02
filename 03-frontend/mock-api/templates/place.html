@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Place Details</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./static/css/styles.css">
 </head>
 <body>
+    {% include 'header.html' %}
     <main>
         <section id="place-details">
             <!-- Place details will be populated dynamically -->
@@ -24,6 +25,7 @@
             </form>
         </section>
     </main>
-    <script src="scripts.js"></script>
+    <script src="./static/js/scripts.js"></script>
 </body>
+{% include 'footer.html' %}
 </html>

@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Review</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./static/css/styles.css">
 </head>
 <body>
+    {% include 'header.html' %}
     <main>
         <form id="review-form">
             <h2>Add a Review</h2>
@@ -19,6 +20,7 @@
             <button type="submit">Submit</button>
         </form>
     </main>
-    <script src="scripts.js"></script>
+    <script src="./static/js/scripts.js"></script>
 </body>
+{% include 'footer.html' %}
 </html>
